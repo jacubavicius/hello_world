@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class ListaBSMsController {
 	@GetMapping
 	public String listaBSMs() {
-		return "Mentalidades:"
+		return "Mentalidades:                "
 				+ "\n- Orientação ao futuro"
 				+ "\n- Responsabilidade pessoal"
 				+ "\n- Orientação ao futuro"
